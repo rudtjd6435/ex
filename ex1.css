@@ -1,0 +1,46 @@
+@charset "utf-8";
+section{
+    text-align: center;
+}
+h1{ 
+color:white;
+background-color: black;
+
+text-align: center;
+
+}
+
+span{
+background-color: rgb(59, 25, 25);
+color:white;
+text-decoration:  line-through;
+}
+#txt1{
+text-align: center;
+background-color: beige;
+}
+h2{
+text-align: center;
+    color:rgb(25, 81, 83);
+    text-decoration: underline;
+}
+h3{
+text-align: right;
+background-color: rgb(25, 81, 83);
+color:white
+}
+strong{
+
+color:red;
+}
+
+#text1{
+text-decoration: underline;
+
+}
+#text2{
+background-color: orange;
+}
+#text4{
+background-color: orange;
+}
