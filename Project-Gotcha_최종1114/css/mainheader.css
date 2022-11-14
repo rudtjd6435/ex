@@ -1,0 +1,162 @@
+@charset "utf-8";
+body {
+    margin: 0 auto;
+    /* background-color: rgb(226, 239, 255); */
+}
+.background {
+    width: 100%;
+    background-color: rgb(226, 239, 255);
+    /* background-color: transparent; */
+}
+
+/* 헤더 */
+.background a {
+    display: block;
+    height: 800px;
+    background: url(../images/index/main.jpg) no-repeat;
+    background-size: 1920px;
+    background-position: center center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    position: absolute;
+}
+.flexbox {
+    width: 1100px; height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    display: block;
+    background: url(../images/index/logo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 135px; height: 70px;
+    font-size: 0;
+}
+.bigmenu {
+    width: 670px; height: 87px; line-height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+.smallmenu {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 70px;
+}
+.smallmenu li {
+    margin-right: 15px;
+}
+.hide1:hover ~ .smallmenu1 a {
+    opacity: 1;
+    font-size: 14px;
+} 
+.hide2:hover ~ .smallmenu2 a {
+    opacity: 1;
+    font-size: 14px;
+}
+.bigmenu .trans:hover {
+    font-weight: bold;
+    color: #0055ff;
+}
+.bigmenu .trans:hover::before {
+    width: 65px;
+}
+.bigmenu a {
+    display: block;
+    text-decoration: none;
+    color: #555555;
+    transition: .5s;
+    height: 100%;
+    font-size: 18px;
+}
+.smallmenu a {
+    opacity: 0;
+}
+.bigmenu .trans::before {
+    content: "";
+    width: 0px; height: 3px;
+    background-color: #0055ff;
+    position: absolute;
+    top: 85px;
+    transition: .5s;
+}
+
+
+.bigmenu .border {
+    display: inline;
+    background-color: #0055ff; color: #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 5px 13px;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    width: 1300px; height: 255px;
+    position: absolute;
+    top: 675px; left: 50%;
+    transform: translate(-50%, -0);
+    background-color: #0055FF;
+    border-radius: 15px;
+}
+.menu ul {
+    width: 1300px; height: 255px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu li {
+    /* margin: 0 10px; padding: 0 2%; */
+    float: left;
+}
+.menu a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 20px; margin-left: 10px;
+    font-size: 18px;
+}
+.menu li span {
+    display: block;
+    font-size: 14.8px;
+}
+.one {
+    width: 120px; height: 110px;
+    background: url(../images/index/category_1_oneday_carwash_ico_01.png) no-repeat;
+    background-size: contain;
+}
+.two {
+    width: 120px; height: 110px;
+    background: url(../images/index/category_2.subscription_carwash_ico_02.png) no-repeat;
+    background-size: contain;
+}
+.three {
+    width: 120px; height: 110px;
+    background: url(../images/index/category_3.detailing_ico_03.png) no-repeat;
+    background-size: contain;
+}
+.four {
+    width: 120px; height: 110px;
+    background: url(../images/index/category_4.shoppingmall_04.png) no-repeat;
+    background-size: contain;
+}
+.five {
+    width: 120px; height: 110px;
+    background: url(../images/index/category_5.gotcha_spacial_ico_05.png) no-repeat;
+    background-size: contain;
+}
+.six {
+    width: 120px; height: 110px;
+    background: url(../images/index/_category_6.qusetion_ico_06.png) no-repeat;
+    background-size: contain;
+}

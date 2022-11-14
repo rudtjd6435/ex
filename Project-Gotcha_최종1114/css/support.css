@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+
+
+body {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 18px;
+    color: #555;
+}
+.blank2 {
+    width: 100%; height: 87px;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainVisual{
+    /* margin-top: 85px; */
+    padding: 50px 0 80px;
+    padding-top: 0;
+    height: 780px;
+    position: relative;
+    background: #f6f6f6 url(../images/support/main_background.jpg) no-repeat center bottom / 100%;
+}
+#mainVisual.inner{
+    height: 700px;
+}
+#mainVisual .tit {
+    display: block;
+    color: #0055ff;
+    line-height: 1.1em;
+    margin: 20px 0 30px;
+    text-align: center;
+    font-size: 2.625rem;
+    font-weight: 600;
+}
+#mainVisual .place {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 10px;
+    text-align: center;
+    position:relative;
+    right:450px; top:50px;
+}
+#mainVisual .sub {
+    text-align: center;
+    font-size: 1.35rem;
+    margin-top: 140px;
+    font-weight: 700;
+}
+#mainVisual .des {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.6em;
+}
+#mainVisual .callNum {
+    display: block;
+    background-color: #0055ff;
+    margin: 0 auto;
+    width: 230px;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 50px;
+    font-size: 1.25rem;
+}
+#mainVisual .callNum .ico {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background: url(../images/support/main_call.png) no-repeat center/40px;
+    background-size: 15px;
+}
+
+/*#cont1*/
+#container .inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+#cont1 .tit{
+    background-image: url(../images/support/+quastion.png);
+    width: 350px;
+    margin-top:85px ;
+}
+#container .tit {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    margin-bottom: 35px;
+  }
+#container #cont1 .des {
+    margin-bottom: 50px;
+}
+#container .des {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+#cont1 ul li:nth-child(1) a .ico {
+    background-image: url(../images/support/quastion_1_oneday.png);
+    background-size: 35px;
+    top: 18px;
+}
+#cont1 ul li:nth-child(2) a .ico {
+    background-image: url(../images/support/quastion_2_Subscription.png);
+    background-size: 35px;
+    top: 18px;
+}
+#cont1 ul li:nth-child(3) a .ico {
+    background-image: url(../images/support/quastion_3_detailing.png);
+    background-size: 35px;
+    top: 18px;
+}
+#cont1 ul li:nth-child(4) a .ico {
+    background-image: url(../images/support/quastion_4_carwash.png);
+    background-size: 35px;
+    top: 18px;
+}
+#cont1 ul li a .ico {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 25px;
+    background-size: 32px;
+    top: 16px;
+}
+
+#cont1 ul li a {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    line-height: 40px;
+    position: relative;
+    padding: 20px 0 20px 80px;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background: #f3f3f3 url(../images/support/quastion_2\,3\,4\,5right\ arr_grey.png) no-repeat center right 30px /30px;
+    background-size:9px;
+}
+#container .more {
+    display: block;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin: 60px auto 0;
+}
+
+/*#cont2*/
+#container #cont2 {
+    background-color: #0055ff;
+    height: 550px;
+}
+#container>div {
+    margin-bottom: 120px;
+}
+#container #cont2 .tit {
+    text-indent: 0;
+    text-align: left;
+    color: #fff;
+    font-size: 1.825rem;
+    line-height: 1.5em;
+    position: absolute;
+    top: 180px;
+    font-weight: 700;
+    left: 120px;
+}
+#container .tit {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    margin-bottom: 35px;
+}
+#container #cont2 .chat {
+    width: 280px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #0055ff;
+    font-size: 1rem;
+    padding: 14px 0;
+    border-radius: 50px;
+    background-color: #004be0;
+    position: absolute;
+    top: 305px;
+    left: 120px;
+}
+.screenshot {
+    border:8px solid black;
+    width:230px;
+    border-radius: 30px;
+    position:relative;
+    left:630px;
+    top:50px;
+}
+
+/*cont3*/
+#cont3 .tit {
+    background-image: url(../images/support/+notice.png);
+    width: 350px;
+}
+#container .tit {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    margin-bottom: 35px;
+}
+#cont3 .notice a {
+    padding: 28px 15px;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+}
+#cont3 .notice a .blue {
+    color: #0055ff;
+    font-weight: 500;
+    margin-right: 5px;
+}
+#cont3 .notice a .title {
+    width: 50%;      
+}
+#cont3 .notice a .date {
+    float: right;
+    font-size: 1rem;
+    color: #aaa;
+    display: flex;
+    justify-content: right;
+    width: 105px;
+}
