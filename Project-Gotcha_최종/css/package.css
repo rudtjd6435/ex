@@ -1,0 +1,401 @@
+@charset "utf-8";
+
+
+    /*메인이미지 1652x5969 이미지 1100*/
+    body {
+      font-family: 'noto sans KR', sans-serif;
+      line-height: 18px;
+      color: #555;
+      
+    }
+    
+    main {
+      /* margin: 0 auto; */
+      background-color: #fff;
+      /* max-width: 1652px; */
+      /* width: 100%; */
+      /* height: 5969px; */
+      height:5079px;
+    }
+    .blank3 {
+      width: 100%; height: 86px;
+      background-color: #ffffff;
+    }
+
+/* 전체 영역 */
+    main .wrap {
+      margin-bottom: 120px;
+      /* width: 1384px; */
+      height: 882px;
+      display: block;
+    }
+  
+
+  /* 메인이미지 및 패키지 모음전 */
+    main .wrap .maincolor{
+      background-color: #e2efff;
+      /* width:100%; */
+    }
+    main .wrap a {
+      /* margin:0 auto; */
+    }
+
+    main .wrap .a:hover {
+      cursor: pointer;
+    }
+
+    main .wrap .place {
+      position: absolute;
+      top:45px;
+      color:#666;
+      padding-top: 15px;
+    }
+
+    main .wrap a .mainpage {
+      width: 1100px;
+      min-width:320px;
+      position:relative;
+      height: 551px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin: 0 auto 0;
+      background-color: #e2efff;
+    }
+    /* main .wrap a .mainpage img {
+      width: 1100px;
+      min-width:320px;
+      position:relative;
+      height: 551px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin: 15px auto 0;
+      background-color: #e2efff;
+    } */
+
+  
+
+    main .wrap .container {
+      /* width: 1496px; */
+      width:100%;
+      height: 4308px;
+      margin:0 auto;
+    }
+
+
+ 
+
+    main .wrap .innercf {
+      width: 1100px;
+      height: 882px;
+      margin:0 auto;
+    }
+
+
+
+    main .wrap .innercf .blue {
+      display:block;
+      border: 2px solid #0055ff;
+      border-radius: 50px;
+      width: 90px;
+      height: 38px;
+      color: #0055ff;
+      font-size: 1.125rem;
+      font-weight: 500;
+      padding: 8px;
+      text-align: center;
+      margin-bottom: 20px;
+
+    }
+
+
+
+    main .wrap .innercf .des {
+      font-size: 20px;
+      margin-bottom: 60px;
+    }
+
+    /* plan 1 */
+    main .wrap .container .cont1 {
+      /* width: 1496px;0 */
+      width:100%;
+      height: 882px;
+      margin-top: 100px;
+      margin-bottom: 120px;
+     
+    }
+    main .wrap .container .cont1 a{
+    display: block;
+    width: 45%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top:115px;
+    text-decoration: none;
+  }
+
+  main .wrap .cont1 .plan1 {
+      background-image: url(../images/package/plan01_+1_oneday_carwash.png);
+      background-repeat: no-repeat;
+      width: 400px;
+      height: 100px;
+      background-size: cover;
+      background-position: center;
+      text-indent: -9999px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+
+    main .wrap .container .cont1 .box{
+      background-color: #f3f3f3;
+      box-sizing:border-box;
+      padding:120px 50px 60px;
+      width:495px; height:516px;
+      
+
+    }
+    main .wrap .container .cont1 ul li a img {
+       width: 340px;
+       position: absolute;
+      top: 0px;
+      left: 50px; 
+    }
+
+ 
+    main .wrap .container .cont1 h4{
+      margin-bottom:20px;
+      font-size: 1.75rem;
+      line-height: 1em;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    main .wrap .container .cont1 .txt{
+      font-size: 1.125rem;
+      line-height: 1.5em;
+      margin-bottom: 50px;
+      color:#555;
+      width:395px;
+    }
+    main .wrap .container .cont1 li{
+      margin-bottom:30px;
+    }
+    main .wrap .container .cont1 .level{
+      font-size:1.25rem;
+      font-weight:700;
+      color:#333333;
+    }
+    main .wrap .container .cont1 .pri{
+      font-size:1.25rem;
+      font-weight:700;
+      float:right;
+      color:#0055ff;
+    }
+    main .wrap .container .cont1 .more{
+      display: block;
+      width: 95%;
+      text-align: center;
+      background-color: #0055ff;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-top: 50px;
+      
+    }
+    /* plan2  */
+    main .wrap .container .cont2 {
+      /* width: 1496px;0 */
+      width:100%;
+      height: 1593px;
+      margin-top: 100px;
+      margin-bottom: 120px;
+     
+    }
+    main .wrap .container .cont2 a{
+    display: block;
+    width: 45%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top:115px;
+    text-decoration: none;
+  }
+  main .wrap .cont2 .plan2 {
+      background-image: url(../images/package/plan02_+_1_Subscription_type_car_wash.png);
+      background-repeat: no-repeat;
+      width: 460px;
+      height: 100px;
+      background-size: cover;
+      background-position: center;
+      text-indent: -9999px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+
+    main .wrap .container .cont2 .box{
+      background-color: #f3f3f3;
+      box-sizing:border-box;
+      padding:120px 50px 60px;
+      width:495px; height:516px;
+      
+
+    }
+    main .wrap .container .cont2 ul li a img {
+       width: 340px;
+       position: absolute;
+      top: 0px;
+      left: 50px; 
+    }
+
+ 
+    main .wrap .container .cont2 h4{
+      margin-bottom:20px;
+      font-size: 1.75rem;
+      line-height: 1em;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    main .wrap .container .cont2 .txt{
+      font-size: 1.125rem;
+      line-height: 1.5em;
+      margin-bottom: 50px;
+      color:#555;
+      width:395px;
+    }
+    main .wrap .container .cont2 li{
+      margin-bottom:30px;
+    }
+    main .wrap .container .cont2 .level{
+      font-size:1.25rem;
+      font-weight:700;
+      color:#333333;
+    }
+    main .wrap .container .cont2 .pri{
+      font-size:1.25rem;
+      font-weight:700;
+      float:right;
+      color:#0055ff;
+    }
+    main .wrap .container .cont2 .more{
+      display: block;
+      width: 95%;
+      text-align: center;
+      background-color: #0055ff;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-top: 50px;
+      
+    }
+   
+    /* plan3 */
+    main .wrap .container .cont3 {
+      /* width: 1496px;0 */
+      width:100%;
+      height: 1593px;
+      margin-top: 100px;
+      margin-bottom: 120px;
+     
+    }
+    main .wrap .container .cont3 a{
+    display: block;
+    width: 45%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top:115px;
+    text-decoration: none;
+  }
+  main .wrap .cont3 .plan3 {
+      background-image: url(../images/package/plan03+1.detailing_car_wash.png);
+      background-repeat: no-repeat;
+      width: 400px;
+      height: 100px;
+      background-size: cover;
+      background-position: center;
+      text-indent: -9999px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+
+    main .wrap .container .cont3 .box{
+      background-color: #f3f3f3;
+      box-sizing:border-box;
+      padding:120px 50px 60px;
+      width:495px; height:516px;
+      
+
+    }
+    main .wrap .container .cont3 ul li a img {
+       width: 340px;
+       position: absolute;
+      top: 0px;
+      left: 50px; 
+    }
+
+ 
+    main .wrap .container .cont3 h4{
+      margin-bottom:20px;
+      font-size: 1.75rem;
+      line-height: 1em;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    main .wrap .container .cont3 .txt{
+      font-size: 1.125rem;
+      line-height: 1.5em;
+      margin-bottom: 50px;
+      color:#555;
+      width:395px;
+    }
+    main .wrap .container .cont3 li{
+      margin-bottom:30px;
+    }
+    main .wrap .container .cont3 .level{
+      font-size:1.25rem;
+      font-weight:700;
+      color:#333333;
+    }
+    main .wrap .container .cont3 .pri{
+      font-size:1.25rem;
+      font-weight:700;
+      float:right;
+      color:#0055ff;
+    }
+    main .wrap .container .cont3 .more{
+      display: block;
+      width: 95%;
+      text-align: center;
+      background-color: #0055ff;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-top: 50px;
+      
+    }
+     
+
+    .left{
+      float:left;
+      margin-right:5%;
+    }
+    .right{
+      float:right;
+      margin-left:5%;
+    }
+    
+    .container .cont2 ul li:nth-child(1)>a,
+    .container .cont2 ul li:nth-child(2)>a,
+    .container .cont3 ul li:nth-child(1)>a,
+    .container .cont3 ul li:nth-child(2)>a {
+      margin-bottom:80px;
+    }
+  
+    .cf .clearfix{
+      content: "";
+      display:block;
+      clear:both;
+    }

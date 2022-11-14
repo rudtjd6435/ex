@@ -1,0 +1,455 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 + 메인이미지 + 메뉴 */
+
+
+.container .calculator {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 260px 0 160px;
+    overflow: auto;
+}
+.container .calculator .choice {
+    box-sizing: border-box;
+    width: 550px; height: 400px;
+    float: left;
+    font-weight: 500;
+}
+.container .calculator .choice h1 {
+    width: 100%;
+    height: 42px;
+    margin: 0 0 55px 0;
+}
+.container .calculator .choice span {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+.container .calculator select {
+    background: url(../images/index/_form_select_arrow.png) no repeat center right 20px / 25px;
+    font-size: 1.25rem;
+    padding: 0 10px 8px;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px solid #0055ff;
+    width: 200px;
+    color: #0055ff;
+    font-weight: 900;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+.container .calculator .choice .buttonbox {
+    position: absolute;
+}
+.container .calculator .choice .button {
+    background-color: #0055ff;
+    color: #fff;
+    box-sizing: border-box;
+    width: 265px; height: 48px;
+    padding: 15px 0;
+    font-size: 1rem; font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+.container .calculator .choice .reset {
+    background-color: #999;
+    color: #fff;
+    box-sizing: border-box;
+    width: 265px; height: 48px;
+    padding: 15px 0;
+    font-size: 1rem; font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.container .calculator .effect {
+    box-sizing: border-box;
+    width: 500px; height: 390px;
+    background-color: #f6f6f6;   
+    float: right;
+    border-radius: 5px;
+}
+
+.container .calculator .effect ul {
+    box-sizing: border-box;
+    padding: 30px 0 0;
+    width: 450px;
+    height: 300px;
+    list-style: none;
+}
+.container .calculator .effect ul li{
+    color: #555;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    margin: 45px 0 45px 45px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.container .calculator .effect .line {
+    width: 90%;
+    height: 1px;
+    background-color: #ccc;
+    position: relative;
+    left: 5%;
+    z-index: 5;
+    display: block;
+    margin: 0 0 30px ;
+}
+.container .calculator .effect h2 {
+    font-size: 1.25rem;
+    font-weight: 500; 
+}
+.container .calculator .effect .won {
+    box-sizing: border-box;
+    line-height: 1em;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    margin: 0 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .contents1 {
+    clear: both;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 180px;
+    height: 775px;
+}
+
+.container .contents1 .contentbox {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .contents1 .contentbox .contTxt h4 {
+    color: #0062ff;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 0 0 35px 10px;
+}
+.container .contents1 .contentbox .contTxt h4 a {
+    color: #005fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 200px;
+    height: 18px;
+}
+.container .contents1 .contentbox .contTxt h2 {
+    margin-bottom: 35px;
+}
+
+.container .contents1 .contentbox .conImg1 {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    background: url(../images/index/scroll_1_Subscription_carwash.png) no-repeat center 50%;
+}
+
+.container .contents2 {
+    clear: both;
+    width: 100%;  
+    height: 575px;
+}
+
+.container .contents2 .contentbox {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .contents2 .contentbox .contTxt h4 {
+    color: #0062ff;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 0 0 35px 10px;
+}
+.container .contents2 .contentbox .contTxt h4 a {
+    color: #005fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 200px;
+    height: 18px;
+}
+.container .contents2 .contentbox .contTxt h2 {
+    margin-bottom: 35px;
+}
+
+.container .contents2 .contentbox .conImg2 {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    background: url(../images/index/scroll_2_oneday_car_wash.png) no-repeat center 50%;
+}
+.container .contents3 {
+    clear: both;
+    width: 100%;
+    height: 575px;
+}
+
+.container .contents3 .contentbox {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .contents3 .contentbox .contTxt h4 {
+    color: #0062ff;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 0 0 35px 10px;
+}
+.container .contents3 .contentbox .contTxt h4 a {
+    color: #005fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 200px;
+    height: 18px;
+}
+.container .contents3 .contentbox .contTxt h2 {
+    margin-bottom: 35px;
+}
+
+.container .contents3 .contentbox .conImg3 {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    background: url(../images/index/scroll_3-1gotcha.png) no-repeat center 50%;
+}
+.container .contents4 {
+    clear: both;
+    width: 100%;
+    height: 575px;
+}
+
+.container .contents4 .contentbox {
+    box-sizing: border-box;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .contents4 .contentbox .contTxt h4 {
+    color: #0062ff;
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 0 0 35px 10px;
+}
+.container .contents4 .contentbox .contTxt h4 a {
+    color: #005fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width: 200px;
+    height: 18px;
+}
+.container .contents4 .contentbox .contTxt h2 {
+    margin-bottom: 35px;
+}
+
+.container .contents4 .contentbox .conImg4 {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    background: url(../images/index/scroll_4_carwash_ware.png) no-repeat center 50%;
+}
+
+.container .banner {
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+    padding: 90px 0 70px 0;
+    background-color: #eaf2fe;
+    text-align: center;
+}
+.container .banner .bannerlogo {    
+    width: 180px; height: 60px;
+    margin: 0 auto 20px;
+    background: url(../images/index/banner_logo_blue.svg) no-repeat center / cover;
+}
+.container .banner h1 {    
+    margin: 0 auto 40px;
+    width: 480px; height: 45px;
+    position: relative;
+    background: url(../images/index/+mycar_.png) no-repeat center / cover;
+}
+.container .banner h1 .movetxt {
+    width: 210px;
+    position: absolute;
+    top: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -50px;
+}
+.container .banner p {
+    font-size: 1.5rem;
+    margin: 0; padding: 0;
+    color: #666;
+}
+.container .banner p span {
+    color: #000;
+    font-weight: bold;
+}
+
+.container .blue {
+    width: 100%;
+    height: 590px;
+    padding: 120px 0 150px 0;
+    background-color: #0055ff;    
+}
+.container .blue ul {
+    list-style: none;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex
+}
+.container .blue ul li {
+    margin: 0 auto;
+    text-align: center;
+}
+.container .blue ul li p {
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+}
+.container .blue ul li img {
+    height: 240px;
+    margin-bottom: 25px;
+    vertical-align: top;
+}
+
+.container .planning {
+    margin: 0 auto 110px;
+    width: 1100px;
+    height: 525px;
+    padding-top: 120px;    
+}
+.container .planning h1 {
+    width: 245px;
+    height: 40px;
+    margin: 0 0 25px 0;
+    background: url(../images/index/+gotcha_spacial.png) no-repeat left / contain;
+}
+.container .planning .plantitle {
+    display: flex;
+    justify-content: space-between;
+}
+.container .planning .plantitle p {
+    font-size: 1.125rem;
+    color: #666;
+}
+.container .planning .more {
+    text-decoration: none;
+    width: 125px;
+    color: #005fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.container .planning .planlist ul {
+    list-style: none;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: center;
+}
+.container .planning .planlist ul li {
+    margin: 27px;
+}
+.container .planning .planlist ul li a{
+    text-decoration: none;
+}
+.container .planning .planlist ul li a h4 {
+    color: #555;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container .planning .planlist ul li a p {
+    color: #999;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.container .planning .planlist ul li a .plan1 {
+    width: 330px; height: 230px;
+    border-radius: 10px;
+    background: url(../images/index/gotcha_spacial_1-partner_kakao.jpg) no-repeat center / contain;
+}
+.container .planning .planlist ul li a .plan2 {
+    width: 330px; height: 230px;
+    border-radius: 10px;
+    background: url(../images/index/gotcha_spacial_2_partner_myhomie.jpg) no-repeat center / contain;
+}
+.container .planning .planlist ul li a .plan3 {
+    width: 330px; height: 230px;
+    border-radius: 10px;
+    background: url(../images/index/gotcha_spacial_3_partner_heydealer.jpg) no-repeat center / contain;
+}
+
+.container .question {
+    margin: 0 auto;
+    width: 1100px;
+    height: 393px;
+}
+.container .question h1 {
+    width: 185px; height: 40px; margin-bottom: 25px; padding: 0;
+    background: url(../images/index/+inquiry.png) no-repeat left / contain;
+}
+.container .question p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+.container .question .quesbox {
+    display: flex;
+    justify-content: space-between;
+}
+.container .question .quesbox a {
+    text-decoration: none;
+    border: 2px #ccc solid;
+    width: 528px; height: 155px;
+    padding: 30px 50px;
+}
+.container .question .quesbox a h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+.container .question .quesbox a p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+.container .question .quesbox a span {
+    width: 100px; height: 28px;
+    padding: 5px 18px;
+    background-color: #0055ff;
+    color: #fff;
+    font-size: 0.825rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.container .question .quesbox .ques1 .questxt {
+    background: url(../images/index/inquiry_b2b_ico.png) no-repeat right / 50px ;
+}
+.container .question .quesbox .ques2 .questxt {
+    background: url(../images/index/inquiry_\ locate.png) no-repeat right / 50px ;
+}

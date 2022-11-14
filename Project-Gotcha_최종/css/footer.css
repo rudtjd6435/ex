@@ -1,0 +1,248 @@
+@charset "utf-8";
+.high {
+    width: 100%;
+    height: 140.67px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.highbar {
+    min-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .mail {
+    width: 1100px;
+    max-width: 1100px;
+} */
+.mail a {
+    display: block;
+    top: 55px; left: 15%;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.mail strong {
+    padding-right: 10px;
+    font-size: 18px;
+}
+.minibox a {
+    display: block;
+    width: 340px; height: 56px;
+    background-color: #F6F6F6;
+    text-align: center;
+    line-height: 56px;
+    box-shadow: 0px 0px 5px #868686;
+    text-decoration: none;
+    color: black; font-weight: 700;
+    font-size: 16px;
+}
+.minibox a span {
+    display: inline-block;
+    width: 30px; height: 15px;
+    background: url(../images/index/message_ico.png) no-repeat;
+    background-size: 20px;
+    margin-right: 5px;
+}
+.mainfooter {
+    min-width: 1100px;
+    height: 650px;
+    background-color: #191f28;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.subcontainer strong {
+    color: #d5e7ff;
+}
+.subcontainer {
+    height: 537.58px;
+    margin: 0 141.333px; padding: 100px 0 0;
+    line-height: 2;
+    width: 1100px;
+}
+.footerlogo {
+    display: block;
+    width: 175px; height: 50px;
+    background: url(../images/index/footer_Gotcha\ Logo.png) no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+.address {
+    line-height: 2;
+}
+.list {
+    float: left;
+    margin-right: 20px;
+}
+.nextline {
+    clear: both;
+}
+.nextline li {
+    margin: 40px 20px 40px 0;
+}
+.nextline li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.copyright {
+    clear: both;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.font13 {
+    font-size: 13.2px;
+}
+.icon ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.icon a {
+    display: block;
+    width: 50px; height: 50px;
+    background-color: #555555;
+    border-radius: 50px;
+    font-size: 0;
+}
+.icon li {
+    margin: 10px;
+}
+.iconline {
+    display: flex;
+    justify-content: space-between;
+}
+.youtube {
+    background: url(../images/index/footer_youtube_white.png) no-repeat;
+    background-size: 25px;
+    background-position: 50%;
+}
+.facebook {
+    background: url(../images/index/footer2_facebook_white-2.png) no-repeat;
+    background-size: 15px;
+    background-position: 50%;
+}
+.instagram {
+    background: url(../images/index/footer_3_\ instagram.png) no-repeat;
+    background-size: 20px;
+    background-position: 50%;
+}
+.kakao {
+    background: url(../images/index/footer4_kakaoplus_.png) no-repeat;
+    background-size: 20px;
+    background-position: 50%;
+}
+.naver {
+    background: url(../images/index/footer5_naver.png) no-repeat;
+    background-size: 20px;
+    background-position: 50%;
+}
+/* footer -fixed */
+.icon2{
+    display: block;
+    width: 55px; height: 55px;
+    background-color: #0055FF;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.upbtn {
+    position: fixed;
+    bottom: 8.7%;  right: 5%;
+    z-index: 9;
+}
+.upbtn .top {
+    background: url(../images/index/top.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #fff;
+    font-size: 0;
+    border: 1.5px solid #999;
+}
+.upbtn .call {
+    background: url(../images/index/_fixed_headset.png) no-repeat;
+    background-size: 30px;
+    background-position: center;
+    background-color: #0055FF;
+    font-size: 0;
+    box-shadow: 0px 0px 15px rgb(0 48 144 / 50%);
+    
+}
+/* headphone */
+.headphone {
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+    display: inline-block;
+}
+
+
+.headphone .chat .product {
+    display: none;
+}
+.upbtn > .call:active .headphone .chat .product {
+    display:block;
+    position: fixed;
+    bottom: 125px;
+    right: 60px;
+    z-index: 1;
+}
+
+.headphone .chat .product li a {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1rem;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+    font-weight: 700;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.headphone .chat .product > li .ico{
+    display: block;
+    width: 50px;
+    height: 40px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    
+}
+.headphone .chat .product > li:nth-child(1) .ico {
+    background: url(../images/index/fixed_kakao-talk.png) no-repeat center / contain ;  
+    
+}
+.headphone .chat .product > li:nth-child(2) .ico {
+    background: url(../images/index/fixed_phone-call.png) no-repeat center / contain ;  
+ 
+}
+.headphone .chat .product > li:nth-child(3) .ico {
+    background: url(../images/index/fixed_list.png) no-repeat center / contain ;  
+ 
+}
+.headphone .chat .product li .des{
+    color:#666;
+    font-weight:500;
+    display:block;
+    margin-top:5px;
+    font-size:0.925rem;
+}
+
+.upbtn .up{
+    display:none;
+     /* display:none- hover 동작시 어두워지도록 지우면 어두워짐*/
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
